@@ -1,0 +1,694 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/z1522/Desktop/Rosetta/DocfxConf",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../Res/Rosetta.png",
+      "output": {
+        "resource": {
+          "relative_path": "Res/Rosetta.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Editor.Collector.CollectorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Editor.Collector.CollectorBase.html",
+          "hash": "oAhCwWJBLcJgyMXEK95TVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Editor.Collector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Editor.Collector.html",
+          "hash": "CpLVQBcbGGKOHtogImZ9ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Editor.Creator.CreatorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Editor.Creator.CreatorBase.html",
+          "hash": "sfWK3IubgMSgwquQx8tVGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Editor.Creator.I18NMedia-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Editor.Creator.I18NMedia-1.html",
+          "hash": "Gpw9KD5+aV3XnQiPROy+mQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Editor.Creator.I18NString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Editor.Creator.I18NString.html",
+          "hash": "q+4rYxZWEGui0HzfFB8EGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Editor.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Editor.Creator.html",
+          "hash": "Kfz1ViNqnsgB9X6z+y6RFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Common.Wav.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Common.Wav.html",
+          "hash": "2OgHFsDP/1f1azGjbvd+Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Common.html",
+          "hash": "X+phoEP0AxQDusBcl3uWDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.I18NAudio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.I18NAudio.html",
+          "hash": "Rdq9xQ2qCB6HHaeU4ZsoNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.I18NComponentBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.I18NComponentBase.html",
+          "hash": "neZr6aq6+qXBTG25Gsn+fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.I18NImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.I18NImage.html",
+          "hash": "gRNIyTG/EQ+JoigCsQ7z3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.I18NSpriteRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.I18NSpriteRenderer.html",
+          "hash": "lxIjs7YNWPODzVbhbhtgSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.I18NTMPText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.I18NTMPText.html",
+          "hash": "bDPLY9c/6rt//se6jAePfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.I18NText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.I18NText.html",
+          "hash": "qI1a4BYe1oEWmrSMCyF//A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Component.html",
+          "hash": "+76Vdiy7zxDlG2VYeZc1Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NAudioAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NAudioAttribute.html",
+          "hash": "e2SUvD9mGnwzNjFm7FbVyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NAudioListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NAudioListAttribute.html",
+          "hash": "7SWf81y7NhIJNFA/CcQHXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NClassAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NClassAttribute.html",
+          "hash": "EcjSQ+x1aI6E+a5NkOnGxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NFileType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NFileType.html",
+          "hash": "gRV+dDhm8ucsk8UrgqODUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NImageAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NImageAttribute.html",
+          "hash": "t+yhw80g+WZIuvE9Q/qe1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NImageListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NImageListAttribute.html",
+          "hash": "xavtOoRsbEKhlmfCc85HUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NStringAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NStringAttribute.html",
+          "hash": "oKs5joav7l3BpXDxaPnj8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.I18NStringListAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.I18NStringListAttribute.html",
+          "hash": "AssRAH6zVaVdwlwlLoCP6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.LangFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.LangFlag.html",
+          "hash": "9b+oXsLJJ2zzyl5xtC5rfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.FontInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.FontInfo.html",
+          "hash": "Vi53sGwrNSQyTlfs+gN27Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.FontLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.FontLoader.html",
+          "hash": "DKaMV5eKv5A0HgjiImQq1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.ImageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.ImageInfo.html",
+          "hash": "18mlk8kmlwKGVIjintCuIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.LoaderBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.LoaderBase.html",
+          "hash": "WrB3EcDEqqOGXJOzcaztTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.MediaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.MediaInfo.html",
+          "hash": "QKSgKzHiUZTTvkjYJoK6zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.MultiMediaLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.MultiMediaLoader.html",
+          "hash": "5D7AmycvNpOyTdGERcEcPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.PngLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.PngLoader.html",
+          "hash": "Vteno5KUR3eZERQRCt8NPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.PoLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.PoLoader.html",
+          "hash": "Sh0RfbICkpFt5qcYGLWU1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.WavLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.WavLoader.html",
+          "hash": "Dg+GmP69+a66ekm8rbxKgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Loader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Loader.html",
+          "hash": "mO7fQAYyyTexrdTRbQDptQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.Rosetta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.Rosetta.html",
+          "hash": "aGMKj4n0ti1mC1Wy+UNoyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.RosettaRuntimeSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.RosettaRuntimeSetting.html",
+          "hash": "Lx7zELXLtlBxZyKqnMOCug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Rosetta.Runtime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Rosetta.Runtime.html",
+          "hash": "gM5cgcDRJ/iBwWXM5lW2Mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "2EMbHGGkGAFnnaKsoKGZbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/customLoader.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/customLoader.html",
+          "hash": "FSCgqZCgw53b6GlOTWITJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/gettingStarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/gettingStarted.html",
+          "hash": "1JYhihDmit9gpNBGjPwKpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/loadAndUseOnRuntime.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/loadAndUseOnRuntime.html",
+          "hash": "JennwegH4go3+0+sHzFJ3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/component/I18NAudio.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/component/I18NAudio.html",
+          "hash": "Bl9Acbm4juhjmpMmlw8qkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/useI18NAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/useI18NAttribute.html",
+          "hash": "BimvkpOaH7LiH6HWKgztmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/useI18NComponent.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/useI18NComponent.html",
+          "hash": "3VMlfuETst767s+rPJaOkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/radmap.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/radmap.html",
+          "hash": "cV0Md10WWmGn+zidqPjfAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/creator.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/creator.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "guides/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "guides/toc.html",
+          "hash": "bZq6ovmg+pT8O7t5V+PCGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/translationFileTemplate.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/translationFileTemplate.html",
+          "hash": "71mLyNe9LGOCKJjmZLMb5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/useCollectorAndCretor.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/useCollectorAndCretor.html",
+          "hash": "zLBJfUALg94e7mD5yxjVkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "index",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "mHFF/bGZ1E5cz1dguSwGPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Ifau6w1lLhP+JHYJXFnWFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.43.2.0 to 2.44.0.0.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "DocfxVersionChanged"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 10,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 37,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

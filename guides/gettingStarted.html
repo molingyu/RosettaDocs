@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>&#36215;&#27493; | Rosetta website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="&#36215;&#27493; | Rosetta website ">
+    <meta name="generator" content="docfx 2.44.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="起步">起步</h1>
+
+<h2 id="1-什么是-rosetta">1. 什么是 Rosetta</h2>
+<p><img src="../Res/Rosetta.png" alt="Rosetta"></p>
+<h2 id="2-获取">2. 获取</h2>
+<p>你可以从 <a href="">GitHub Release</a> 页面获取打包好的 <em>unitypackage</em> 文件。</p>
+<p>另外，你也可以 通过 git repo 以 <a href="https://forum.unity.com/threads/git-support-on-package-manager.573673/">UPM</a> 的方式将 Rosetta 引入你的项目。</p>
+<h2 id="3-在-unity-中使用-rosetta">3. 在 Unity 中使用 Rosetta</h2>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Rosetta 使用 <a href="https://odininspector.com/">Odin Inspector</a> 来简化编辑器部分的开发。使用 Rosetta 前请确保已安装 Odin Inspector 插件。</p>
+</div>
+<h3 id="31-标记-i18n-资源">3.1 标记 I18N 资源</h3>
+<p>Rosetta 的一大特点就在于通过一些 Unity 和 C# 的特性，从而尽量让整个 I18N 工作自动化。</p>
+<p>I18N 资源可能会以各种方式存在于工程中。在 Unity 下大体存在以下几类情况：</p>
+<ol>
+<li>以 Scene 内 的 GameObject 上挂载的 Component 的字段存在。例如 Text 组件的 Text， Image 组件的 Sprite(Source Image)等。</li>
+<li>情况同第一条，不同的是这些 GameObject 存在于 Prefab 而不是 Scene。</li>
+<li>在一些自定义的数据结构的相关字段上。这些数据可能来自一个具体 ScriptableObject 对象，或者对应的 xml、json 或 csv 的配置文件上。</li>
+</ol>
+<p>以上三种情况对应着三种游戏内数据来源：UI、关卡/地图数据、丢到。在 Rosetta 中，针对每种情况都有预先定义好的标记来标记这些需要收集的 I18N 数据。</p>
+<p>对于情况 1 ，</p>
+<h3 id="32-创建-i18ncreator-并生成翻译文件模板">3.2 创建 I18NCreator 并生成翻译文件模板</h3>
+<p>对于 Rosetta 来说，I18N资源通过对应的方式标记后，就可以通过 I18N Collector 来收集，并通过 I18N Creator 来生成对应的 I18N
+模板文件。这些模板文件会提交给翻译工作人员完成翻译。最后在运行时，通过对应的加载器完成加载。</p>
+<p><img src="res/creator.png" alt="Pot Creator"></p>
+<h3 id="33-和翻译人员对接">3.3 和翻译人员对接</h3>
+<p>Rosetta 对于不同的 I18N 资源会生成不同的翻译模板文件。对于文本资源，会生成标准的 <a href="https://www.gnu.org/software/gettext/manual/gettext.html">GNU Gettext</a>  翻译文件模板文件(<code>.pot</code>)。</p>
+<p>翻译人员可以使用 GNU Gettext 的相关工具链。通过诸如 <a href="https://poedit.net/">Poedit</a> 这样的软件可以十分轻松的完成翻译工作。</p>
+<p>对于多人合作翻译，一些翻译内容管理系统也是很好的选择（<a href="https://weblate.org/">Weblate</a>）。</p>
+<p>除此之外，Rosetta 也会处理音频、图像和字体资源的 I18N 问题。对于这些内容，除翻译工作人员外，也会用到其他诸如美术、音频等工作者的参与。</p>
+<div id="disqus_thread"></div>
+                <script>
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://docfx-github.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/molingyu/Rosetta/blob/master/DocfxConf/guides/gettingStarted.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="#disqus_thread" class="contribution-link">0 Comments</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © Shitake.<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script id="dsq-count-scr" src="//docfx-github.disqus.com/count.js" async=""></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-99241001-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+  </body>
+</html>
