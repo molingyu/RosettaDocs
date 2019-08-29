@@ -5,21 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RosettaEditorSetting
-   | Rosetta website </title>
+    <title>I18NText &#32452;&#20214; | Rosetta website </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RosettaEditorSetting
-   | Rosetta website ">
-    <meta name="generator" content="docfx 2.43.2.0">
+    <meta name="title" content="I18NText &#32452;&#20214; | Rosetta website ">
+    <meta name="generator" content="docfx 2.45.0.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -36,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -78,48 +76,40 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Rosetta.Editor.RosettaEditorSetting">
-  
-  
-  <h1 id="Rosetta_Editor_RosettaEditorSetting" data-uid="Rosetta.Editor.RosettaEditorSetting" class="text-break">Class RosettaEditorSetting
-  </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">RosettaEditorSetting</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Rosetta.Editor.html">Rosetta.Editor</a></h6>
-  <h6><strong>Assembly</strong>: Rosetta.Editor.dll</h6>
-  <h5 id="Rosetta_Editor_RosettaEditorSetting_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class RosettaEditorSetting</code></pre>
-  </div>
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="i18ntext-组件">I18NText 组件</h1>
+
+<p>I18NText 是用来标记一个 GameObject 上存在需要 I18N 处理的 <a href="https://docs.unity3d.com/Manual/script-Text.html">Text</a> 的组件。</p>
+<p>在运行时，I18NText 组件通过订阅 Rosetta 的 <a href="https://molingyu.github.io/RosettaDocs/api/Rosetta.Runtime.Rosetta.html#events">LocaleChanged</a> 事件，从而在切换语言后自动读取并替换当前 <code>GameObject</code> 的 <code>Text</code> 组件内 <code>Text</code> 字段为当前语言对应的 I18N 文本资源。根据设置不同，可能还会替换 <code>font</code> 字段。</p>
+<p><img src="../../res/i18nText.png" alt="I18NText"></p>
+<h2 id="属性">属性</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I18N Comment</td>
+<td style="text-align: left;">多语言资源注释。该注释会随着当前的 I18N 音频资源的模板文件一同交给多语言工作者。</td>
+</tr>
+<tr>
+<td>I18N Space</td>
+<td style="text-align: left;">该 I18N Text 资源所属的域，关于域的说明请参阅 <a href="https://molingyu.github.io/RosettaDocs/guides/useCollectorAndCreator.html#space--%E5%9F%9F">使用 Collector 和 Creator: 域</a></td>
+</tr>
+<tr>
+<td>Is Virtual Font</td>
+<td style="text-align: left;">是否启用虚拟字体设定。当启用后，Rosetta 加载时会先去根据 <code>Virtual Font Name</code> 读取虚拟字体配置文件，然后获取对应语言的真实字体文件的名称后再加载并应用。</td>
+</tr>
+<tr>
+<td>Virtual Font Name*</td>
+<td style="text-align: left;">虚拟字体配置文件的名称。</td>
+</tr>
+</tbody>
+</table>
+<p><em>注： 只有当 <code>IsVirtualFont</code> 为真时，该字段才有用。</em></p>
 <div id="disqus_thread"></div>
                 <script>
                 (function() { // DON'T EDIT BELOW THIS LINE
@@ -138,10 +128,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/molingyu/rosetta/new/master/apiSpec/new?filename=Rosetta_Editor_RosettaEditorSetting.md&amp;value=---%0Auid%3A%20Rosetta.Editor.RosettaEditorSetting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/molingyu/rosetta/blob/master/Editor/RosettaEditorSetting.cs/#L4" class="contribution-link">View Source</a>
+                    <a href="https://github.com/molingyu/Rosetta/blob/master/DocfxConf/guides/makeI18NRes/component/I18NText.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
                     <a href="#disqus_thread" class="contribution-link">0 Comments</a>
@@ -170,9 +157,9 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
     <script id="dsq-count-scr" src="//docfx-github.disqus.com/count.js" async=""></script>
     
     <script>
