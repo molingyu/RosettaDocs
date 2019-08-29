@@ -8,7 +8,7 @@
     <title>&#36215;&#27493; | Rosetta website </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="&#36215;&#27493; | Rosetta website ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.45.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,8 +82,9 @@
 <h2 id="1-什么是-rosetta">1. 什么是 Rosetta</h2>
 <p><img src="../Res/Rosetta.png" alt="Rosetta"></p>
 <h2 id="2-获取">2. 获取</h2>
-<p>你可以从 <a href="">GitHub Release</a> 页面获取打包好的 <em>unitypackage</em> 文件。</p>
-<p>另外，你也可以 通过 git repo 以 <a href="https://forum.unity.com/threads/git-support-on-package-manager.573673/">UPM</a> 的方式将 Rosetta 引入你的项目。</p>
+<p>你可以从 <a href="https://github.com/molingyu/Rosetta/releases">GitHub Release</a> 页面获取打包好的 <em>unitypackage</em> 文件。</p>
+<p>另外，你也可以通过 git repo 以 <a href="https://forum.unity.com/threads/git-support-on-package-manager.573673/">UPM</a> 的方式将 <a href="https://github.com/molingyu/shitake.rosetta">Rosetta</a>
+引入你的项目。</p>
 <h2 id="3-在-unity-中使用-rosetta">3. 在 Unity 中使用 Rosetta</h2>
 <div class="IMPORTANT">
 <h5>Important</h5>
@@ -97,10 +98,9 @@
 <li>情况同第一条，不同的是这些 GameObject 存在于 Prefab 而不是 Scene。</li>
 <li>在一些自定义的数据结构的相关字段上。这些数据可能来自一个具体 ScriptableObject 对象，或者对应的 xml、json 或 csv 的配置文件上。</li>
 </ol>
-<p>以上三种情况对应着三种游戏内数据来源：UI、关卡/地图数据、丢到。在 Rosetta 中，针对每种情况都有预先定义好的标记来标记这些需要收集的 I18N 数据。</p>
-<p>对于情况 1 ，</p>
+<p>以上三种情况对应着三种游戏内数据来源：UI、关卡/地图数据、数据库数据。在 Rosetta 中，针对每种情况都有预先定义好的标记来标记这些需要收集的 I18N 数据。</p>
 <h3 id="32-创建-i18ncreator-并生成翻译文件模板">3.2 创建 I18NCreator 并生成翻译文件模板</h3>
-<p>对于 Rosetta 来说，I18N资源通过对应的方式标记后，就可以通过 I18N Collector 来收集，并通过 I18N Creator 来生成对应的 I18N
+<p>对于 Rosetta 来说，I18N资源通过对应的方式标记后，就可以通过 I18N Collector 来收集，并通过 I18N Creator 生成对应的 I18N
 模板文件。这些模板文件会提交给翻译工作人员完成翻译。最后在运行时，通过对应的加载器完成加载。</p>
 <p><img src="res/creator.png" alt="Pot Creator"></p>
 <h3 id="33-和翻译人员对接">3.3 和翻译人员对接</h3>

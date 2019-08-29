@@ -29,7 +29,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Editor.Collector.CollectorBase.html",
-          "hash": "oAhCwWJBLcJgyMXEK95TVQ=="
+          "hash": "71iIodNusBSdFyAwMiBIbQ=="
         }
       },
       "is_incremental": false,
@@ -41,7 +41,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Editor.Collector.html",
-          "hash": "CpLVQBcbGGKOHtogImZ9ag=="
+          "hash": "VmeNSmtOylBBIf86D8hB6g=="
         }
       },
       "is_incremental": false,
@@ -53,7 +53,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Editor.Creator.CreatorBase.html",
-          "hash": "sfWK3IubgMSgwquQx8tVGg=="
+          "hash": "W/n/S+TD1gNOqSWv0IVXYg=="
         }
       },
       "is_incremental": false,
@@ -65,7 +65,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Editor.Creator.I18NMedia-1.html",
-          "hash": "Gpw9KD5+aV3XnQiPROy+mQ=="
+          "hash": "th8tZQPfi29QaEp/2qR5dQ=="
         }
       },
       "is_incremental": false,
@@ -77,7 +77,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Editor.Creator.I18NString.html",
-          "hash": "q+4rYxZWEGui0HzfFB8EGQ=="
+          "hash": "aycTGm0bbZ5xPaihXYpMFg=="
         }
       },
       "is_incremental": false,
@@ -89,7 +89,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Editor.Creator.html",
-          "hash": "Kfz1ViNqnsgB9X6z+y6RFA=="
+          "hash": "zb+gPLqNi8UamfuVqUOy2w=="
         }
       },
       "is_incremental": false,
@@ -101,7 +101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Common.Wav.html",
-          "hash": "2OgHFsDP/1f1azGjbvd+Pw=="
+          "hash": "eaR+jszI+Jv7Ja2F+e5IDw=="
         }
       },
       "is_incremental": false,
@@ -113,7 +113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Common.html",
-          "hash": "X+phoEP0AxQDusBcl3uWDg=="
+          "hash": "IXv6O/4U5ap47w6fuGQzwA=="
         }
       },
       "is_incremental": false,
@@ -125,7 +125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.I18NAudio.html",
-          "hash": "Rdq9xQ2qCB6HHaeU4ZsoNg=="
+          "hash": "OCe8U4wykt6Ie//UJxMLUA=="
         }
       },
       "is_incremental": false,
@@ -137,7 +137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.I18NComponentBase.html",
-          "hash": "neZr6aq6+qXBTG25Gsn+fQ=="
+          "hash": "C6O7cYQAEBIBnefUe7wWNw=="
         }
       },
       "is_incremental": false,
@@ -149,7 +149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.I18NImage.html",
-          "hash": "gRNIyTG/EQ+JoigCsQ7z3Q=="
+          "hash": "OFrp+Y0/ciB2bw0lLdXS6g=="
         }
       },
       "is_incremental": false,
@@ -161,7 +161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.I18NSpriteRenderer.html",
-          "hash": "lxIjs7YNWPODzVbhbhtgSA=="
+          "hash": "n8Q+V+Mrhm7J2V99ltc2aQ=="
         }
       },
       "is_incremental": false,
@@ -173,7 +173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.I18NTMPText.html",
-          "hash": "bDPLY9c/6rt//se6jAePfw=="
+          "hash": "t9roKC3LgWeBpXz0zCiUyw=="
         }
       },
       "is_incremental": false,
@@ -185,7 +185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.I18NText.html",
-          "hash": "qI1a4BYe1oEWmrSMCyF//A=="
+          "hash": "3IXIZl6eKHdBdRmdtuRzBw=="
         }
       },
       "is_incremental": false,
@@ -197,7 +197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Component.html",
-          "hash": "+76Vdiy7zxDlG2VYeZc1Sw=="
+          "hash": "o9LSwbAcu+xDZt7Ht08dwg=="
         }
       },
       "is_incremental": false,
@@ -209,7 +209,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NAudioAttribute.html",
-          "hash": "e2SUvD9mGnwzNjFm7FbVyw=="
+          "hash": "14O+w0QBk75EuHac3a0WgA=="
         }
       },
       "is_incremental": false,
@@ -221,7 +221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NAudioListAttribute.html",
-          "hash": "7SWf81y7NhIJNFA/CcQHXg=="
+          "hash": "6Kx5WUG0zDyDjTU60GCkPQ=="
         }
       },
       "is_incremental": false,
@@ -233,7 +233,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NClassAttribute.html",
-          "hash": "EcjSQ+x1aI6E+a5NkOnGxQ=="
+          "hash": "+Pi1o8ifO8BVn4KM0X2MDw=="
         }
       },
       "is_incremental": false,
@@ -245,7 +245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NFileType.html",
-          "hash": "gRV+dDhm8ucsk8UrgqODUQ=="
+          "hash": "+ETaM+Zcnra0/3PtNzC4fA=="
         }
       },
       "is_incremental": false,
@@ -257,7 +257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NImageAttribute.html",
-          "hash": "t+yhw80g+WZIuvE9Q/qe1Q=="
+          "hash": "sgp+fURPs8aczn6tZOyRCA=="
         }
       },
       "is_incremental": false,
@@ -269,7 +269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NImageListAttribute.html",
-          "hash": "xavtOoRsbEKhlmfCc85HUg=="
+          "hash": "ITd7Z/GlPOv88t3tCVuYlA=="
         }
       },
       "is_incremental": false,
@@ -281,7 +281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NStringAttribute.html",
-          "hash": "oKs5joav7l3BpXDxaPnj8Q=="
+          "hash": "WX47Muu4f7bJmvvAN7Dk1g=="
         }
       },
       "is_incremental": false,
@@ -293,7 +293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.I18NStringListAttribute.html",
-          "hash": "AssRAH6zVaVdwlwlLoCP6g=="
+          "hash": "hPv7fS5imDBlNYWOAFh61w=="
         }
       },
       "is_incremental": false,
@@ -305,7 +305,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.LangFlag.html",
-          "hash": "9b+oXsLJJ2zzyl5xtC5rfQ=="
+          "hash": "9wCdtRqetB+9cDrG8m/1BQ=="
         }
       },
       "is_incremental": false,
@@ -317,7 +317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.FontInfo.html",
-          "hash": "Vi53sGwrNSQyTlfs+gN27Q=="
+          "hash": "1479fXln93Okq2CEnPbYxw=="
         }
       },
       "is_incremental": false,
@@ -329,7 +329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.FontLoader.html",
-          "hash": "DKaMV5eKv5A0HgjiImQq1Q=="
+          "hash": "bqB8y40GMC8xI0+GZo5H7A=="
         }
       },
       "is_incremental": false,
@@ -341,7 +341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.ImageInfo.html",
-          "hash": "18mlk8kmlwKGVIjintCuIg=="
+          "hash": "J4wgKyYtWrPmD7amlduGIw=="
         }
       },
       "is_incremental": false,
@@ -353,7 +353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.LoaderBase.html",
-          "hash": "WrB3EcDEqqOGXJOzcaztTQ=="
+          "hash": "E8IYC9+s7qrAPCU1ym1mnw=="
         }
       },
       "is_incremental": false,
@@ -365,7 +365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.MediaInfo.html",
-          "hash": "QKSgKzHiUZTTvkjYJoK6zA=="
+          "hash": "5UHOBiUuMALR/zDrLRCq7g=="
         }
       },
       "is_incremental": false,
@@ -377,7 +377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.MultiMediaLoader.html",
-          "hash": "5D7AmycvNpOyTdGERcEcPQ=="
+          "hash": "kRzYlqf01U9ew7np5BICaA=="
         }
       },
       "is_incremental": false,
@@ -389,7 +389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.PngLoader.html",
-          "hash": "Vteno5KUR3eZERQRCt8NPA=="
+          "hash": "LTf+Ui3Zk2yUl4pml9O62A=="
         }
       },
       "is_incremental": false,
@@ -401,7 +401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.PoLoader.html",
-          "hash": "Sh0RfbICkpFt5qcYGLWU1A=="
+          "hash": "vxwYQGfBuU5X+CaZVJ0dog=="
         }
       },
       "is_incremental": false,
@@ -413,7 +413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.WavLoader.html",
-          "hash": "Dg+GmP69+a66ekm8rbxKgQ=="
+          "hash": "Zp+/EtfTjCj24Ds3xQ2EUw=="
         }
       },
       "is_incremental": false,
@@ -425,7 +425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Loader.html",
-          "hash": "mO7fQAYyyTexrdTRbQDptQ=="
+          "hash": "SW62RyrA/mr/iH7EQGVafw=="
         }
       },
       "is_incremental": false,
@@ -437,7 +437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.Rosetta.html",
-          "hash": "aGMKj4n0ti1mC1Wy+UNoyw=="
+          "hash": "5gI+Z2j6nMEkDANS+WnQWQ=="
         }
       },
       "is_incremental": false,
@@ -449,7 +449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.RosettaRuntimeSetting.html",
-          "hash": "Lx7zELXLtlBxZyKqnMOCug=="
+          "hash": "1VzJuSlvJLAl/Qa8Nc/nMQ=="
         }
       },
       "is_incremental": false,
@@ -461,7 +461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Rosetta.Runtime.html",
-          "hash": "gM5cgcDRJ/iBwWXM5lW2Mw=="
+          "hash": "dLlYwH49h0jWrNNB6xqwkA=="
         }
       },
       "is_incremental": false,
@@ -485,7 +485,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/customLoader.html",
-          "hash": "FSCgqZCgw53b6GlOTWITJw=="
+          "hash": "0K9DOOyqHuyxYsQmggGADA=="
         }
       },
       "is_incremental": false,
@@ -497,7 +497,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/gettingStarted.html",
-          "hash": "1JYhihDmit9gpNBGjPwKpQ=="
+          "hash": "GLMFyimMVhPL3Xx3gwTk0w=="
         }
       },
       "is_incremental": false,
@@ -509,7 +509,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/loadAndUseOnRuntime.html",
-          "hash": "JennwegH4go3+0+sHzFJ3A=="
+          "hash": "XlOiULCNiTfs4YheYwyYuQ=="
         }
       },
       "is_incremental": false,
@@ -521,7 +521,55 @@
       "output": {
         ".html": {
           "relative_path": "guides/makeI18NRes/component/I18NAudio.html",
-          "hash": "Bl9Acbm4juhjmpMmlw8qkw=="
+          "hash": "sVXrA1kwtI5kpEtbIMI/Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/component/I18NImage.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/component/I18NImage.html",
+          "hash": "3OwnAS3q2qF1RuB7qgtaJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/component/I18NSpriteRenderer.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/component/I18NSpriteRenderer.html",
+          "hash": "v2xRTTpIMh+zZgyz53VdeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/component/I18NTMPText.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/component/I18NTMPText.html",
+          "hash": "7cgO9yuyHoRyQIjN4FVfTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "guides/makeI18NRes/component/I18NText.md",
+      "output": {
+        ".html": {
+          "relative_path": "guides/makeI18NRes/component/I18NText.html",
+          "hash": "rOeDUhQC9nIZiL8Hodqw4g=="
         }
       },
       "is_incremental": false,
@@ -533,19 +581,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/makeI18NRes/useI18NAttribute.html",
-          "hash": "BimvkpOaH7LiH6HWKgztmw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "guides/makeI18NRes/useI18NComponent.md",
-      "output": {
-        ".html": {
-          "relative_path": "guides/makeI18NRes/useI18NComponent.html",
-          "hash": "3VMlfuETst767s+rPJaOkQ=="
+          "hash": "18BV/Ex3HMAJcmL+9pjmqA=="
         }
       },
       "is_incremental": false,
@@ -557,7 +593,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/radmap.html",
-          "hash": "cV0Md10WWmGn+zidqPjfAg=="
+          "hash": "CXmTBelWVz6P7i2lJydVKw=="
         }
       },
       "is_incremental": false,
@@ -575,12 +611,133 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "guides/res/font.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/font.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/i18nAudio.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/i18nAudio.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/i18nImage.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/i18nImage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/i18nSpriteRenderer.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/i18nSpriteRenderer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/i18nTMPText.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/i18nTMPText.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/i18nText.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/i18nText.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/mediaCreator.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/mediaCreator.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/pot.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/pot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/potCreator.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/potCreator.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/rosettaRuntimeSetting.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/rosettaRuntimeSetting.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "guides/res/scriptableObjectCollector.png",
+      "output": {
+        "resource": {
+          "relative_path": "guides/res/scriptableObjectCollector.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "guides/toc.yml",
       "output": {
         ".html": {
           "relative_path": "guides/toc.html",
-          "hash": "bZq6ovmg+pT8O7t5V+PCGw=="
+          "hash": "46denrxpyD1whGel7+0cMQ=="
         }
       },
       "is_incremental": false,
@@ -592,7 +749,7 @@
       "output": {
         ".html": {
           "relative_path": "guides/translationFileTemplate.html",
-          "hash": "71mLyNe9LGOCKJjmZLMb5A=="
+          "hash": "lpf69Me1a4rTJbMmfhmP0g=="
         }
       },
       "is_incremental": false,
@@ -600,11 +757,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "guides/useCollectorAndCretor.md",
+      "source_relative_path": "guides/useCollectorAndCreator.md",
       "output": {
         ".html": {
-          "relative_path": "guides/useCollectorAndCretor.html",
-          "hash": "zLBJfUALg94e7mD5yxjVkA=="
+          "relative_path": "guides/useCollectorAndCreator.html",
+          "hash": "0mFAULSsy4Q9d/5TlsFSvg=="
         }
       },
       "is_incremental": false,
@@ -616,7 +773,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mHFF/bGZ1E5cz1dguSwGPg=="
+          "hash": "geKxddxDHyz9L/IUXi15Ng=="
         }
       },
       "is_incremental": false,
@@ -638,21 +795,12 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.43.2.0 to 2.44.0.0.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "DocfxVersionChanged"
+        "skipped_file_count": 0
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -660,17 +808,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 10,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 37,
-          "skipped_file_count": 0
+          "skipped_file_count": 37
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 12
         }
       }
     },
